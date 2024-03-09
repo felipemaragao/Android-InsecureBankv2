@@ -73,6 +73,13 @@ def getaccounts():
     print(makejson(data))
     return makejson(data)
 
+@app.route('/check', methods=['GET'])
+def getaccountsteste():
+    #set accounts from the request 
+    data = {"message" : "Server on "}
+    print(makejson(data))
+    return makejson(data)
+
 '''
 The function takes a new password as input and passes it on to the change password module
 '''
@@ -148,6 +155,7 @@ if __name__ == '__main__':
 
     urls = ("/.*", "app")
     apps = web.application(urls, globals())
+    
     server = CherryPyWSGIServer(("0.0.0.0", port),app,server_name='localhost')
     print("The server is hosted on port:",(port))
     
