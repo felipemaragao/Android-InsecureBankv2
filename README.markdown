@@ -1,7 +1,5 @@
 AndroLab Back-end Server Readme
 ==========
-Forked from https://github.com/dineshshetty/Android-InsecureBankv2
-==========
 
 This project is the python backend server for the Android InsecureBankv2 application which can be found at https://github.com/dineshshetty/Android-InsecureBankv2
 
