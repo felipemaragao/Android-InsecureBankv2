@@ -21,7 +21,6 @@ $ ./run-insecurebank.sh
 
 3. To test container: open the browser in url: http://127.0.0.1:8888/check
 
-
 Python required libraries
 -----
 
